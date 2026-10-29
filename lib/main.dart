@@ -1,0 +1,28 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_cource/home/home_page.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Flutter Cource 2',
+      theme: ThemeData(
+        useMaterial3: true,
+        colorScheme: .fromSeed(
+          seedColor: const Color(0xff2563eb),
+          brightness: Brightness.dark,
+        ),
+        scaffoldBackgroundColor: const Color(0xfff8fafc),
+        appBarTheme: const AppBarTheme(centerTitle: true, elevation: 0),
+      ),
+      home: HomePage(),
+    );
+  }
+}
