@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_cource/visit_card/contact_card_widget.dart';
 
 class VisitCardScreen extends StatelessWidget {
   const VisitCardScreen({super.key});
@@ -31,6 +32,40 @@ class VisitCardScreen extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 16),
+            const Text(
+              "Meridina Keldibek",
+              style: TextStyle(
+                fontSize: 40,
+                fontWeight: FontWeight.bold,
+                color: Colors.white,
+                fontFamily: 'Pacifico',
+              ),
+            ),
+
+            const Text(
+              "Flutter Developer",
+              style: TextStyle(
+                fontSize: 24,
+                fontWeight: FontWeight.w400,
+                color: Colors.white,
+                letterSpacing: 1.5,
+              ),
+            ),
+            Container(
+              margin: const EdgeInsets.only(top: 6, bottom: 24),
+              height: 1.5,
+              width: 220,
+              color: Colors.white,
+            ),
+            const ContactCardWidget(
+              icon: Icons.phone_iphone_outlined,
+              text: '+996778115882',
+            ),
+            SizedBox(height: 20),
+            const ContactCardWidget(
+              icon: Icons.mail_outline,
+              text: 'meridina.keldibek@gmail.com',
+            ),
           ],
         ),
       ),

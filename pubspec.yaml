@@ -78,7 +78,9 @@ flutter:
      - family: Sofia
        fonts:
         - asset: assets/im_rich/fonts/Sofia-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
+     -  family: Pacifico
+        fonts:
+        - asset: assets/im_rich/fonts/Pacifico,Sofia/Pacifico/Pacifico-Regular.ttf
   #         style: italic
   #   - family: Trajan Pro
   #     fonts:
