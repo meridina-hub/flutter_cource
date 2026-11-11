@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_cource/counter_app/counter_screen.dart';
+import 'package:flutter_cource/dice_app/dice_screen.dart';
 import 'package:flutter_cource/im_rich/im_rich.dart';
 import 'package:flutter_cource/visit_card/visit_card_screen.dart';
 
@@ -50,7 +51,7 @@ class CourceAppItem {
       subtitle: "4-сабак. Кубик ыргытуу",
       icon: Icons.casino_outlined,
       color: Color(0xff2563eb),
-      pageBuilder: (_) => const CounterScreen(),
+      pageBuilder: (_) => const DiceScreen(),
     ),
     CourceAppItem(
       id: 5,

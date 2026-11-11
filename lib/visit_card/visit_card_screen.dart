@@ -61,7 +61,7 @@ class VisitCardScreen extends StatelessWidget {
               icon: Icons.phone_iphone_outlined,
               text: '+996778115882',
             ),
-            SizedBox(height: 20),
+
             const ContactCardWidget(
               icon: Icons.mail_outline,
               text: 'meridina.keldibek@gmail.com',
