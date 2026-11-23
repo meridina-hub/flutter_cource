@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_cource/counter_app/counter_screen.dart';
 import 'package:flutter_cource/dice_app/dice_screen.dart';
 import 'package:flutter_cource/im_rich/im_rich.dart';
+import 'package:flutter_cource/quiz_app/quiz_screen.dart';
 import 'package:flutter_cource/visit_card/visit_card_screen.dart';
 import 'package:flutter_cource/xylophone_app/xylophone_screen.dart';
 
@@ -68,7 +69,7 @@ class CourceAppItem {
       subtitle: "6-сабак. Тест виктрина",
       icon: Icons.quiz_outlined,
       color: Color(0xff2563eb),
-      pageBuilder: (_) => const CounterScreen(),
+      pageBuilder: (_) => const QuizScreen(),
     ),
     CourceAppItem(
       id: 7,
