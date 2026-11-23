@@ -34,7 +34,8 @@ class DiceWidget extends StatelessWidget {
             },
 
             child: SvgPicture.asset(
-              'assets/dice_app/images/dice$diceNumber.svg',
+              'assets/dice_app/images/dice_$diceNumber.svg',
+              color: color,
             ),
           ),
         ),
